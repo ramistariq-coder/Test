@@ -9,7 +9,7 @@ async function sendPointsToBoomerang(customerPhone, points) {
       points: points
     }, {
       headers: {
-        'Authorization': `Bearer ${process.env.BOOMERANG_API_KEY}`
+        'Authorization': `Bearer ${process.env.514549a214088236d275fd6afcbbe9f8}`
       }
     });
     console.log('Boomerang response:', response.data);

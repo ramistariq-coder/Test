@@ -1,5 +1,10 @@
 {
- "transaction_id":"TX1001",
- "customer_phone":"+44700000000",
- "total_amount":50
+
+ "customers": {
+    "firstname": "Ramsi",
+    "surname": "El-Shafi",
+    "phone": "+1781021012",
+    "email":"ramsi01@gmail.com"
+
+    }
 }

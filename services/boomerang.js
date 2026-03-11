@@ -11,7 +11,7 @@ async function sendPurchaseToBoomerang(customerPhone, amount) {
       },
       {
         headers: {
-          Authorization: `Bearer ${process.env.BOOMERANG_API_KEY}`,
+          Authorization: `Bearer ${process.env.514549a214088236d275fd6afcbbe9f8}`,
           'Content-Type': 'application/json'
         }
       }

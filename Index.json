@@ -1,18 +1,13 @@
+</> JavaScript
 const express = require("express");
 const app = express();
 
-app.use(express.json());
-
-const posRoutes = require("./routes/pos");
-
-app.use("/pos", posRoutes);
-
 app.get("/", (req,res)=>{
- res.send("Universal POS Integration Running");
+ res.send("POS API Running 🚀");
 });
 
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, ()=>{
- console.log("Server running on port", PORT);
+ console.log("Server started");
 });

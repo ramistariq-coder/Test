@@ -6,6 +6,7 @@ async function sendPurchaseToBoomerang(customerPhone, amount) {
     const response = await axios.post(
       'https://api.boomerangme.com/purchase',
       {
+        name: customername,
         phone: customerPhone,
         amount: amount
       },
